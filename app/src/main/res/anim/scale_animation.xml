@@ -15,5 +15,5 @@
     pivot 50% = play animation at center
     duration 100 millisec = play 0.1sec
     repeatCount 1 = play only once
-    repeatMode= reverseback after extend ti ti's original size-->
+    repeatMode= reverse back after extend will back to it's original size-->
 </set>

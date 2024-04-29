@@ -1,26 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="30dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!--    padding = gap from boarder     -->
 
     <TextView
         android:id="@+id/toolbarTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Main Title" />
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/prompt_bold"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/subTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbarTitle"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Welcome User" />
+        android:layout_marginTop="8dp"
+        android:text="@string/welcome_user"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <!--  -->
+    <!-- Image from src -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/subTitle"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_menu_1"
+        android:contentDescription="@string/desc1"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_menu_2"
+        android:contentDescription="@string/desc2"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_menu_3"
+        android:contentDescription="@string/desc3"/>
 
 
 
