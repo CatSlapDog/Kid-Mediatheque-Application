@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fillAfter="true"
-    android:interpolator="@android:anim/linear_interpolator">
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
 
     <scale
-        android:fromXScale="1.0dp"
-        android:toXScale="1.2dp"
-        android:fromYScale="1.0dp"
-        android:toYScale="12dp"
+        android:fromXScale="1.0"
+        android:toXScale="0.8"
+        android:fromYScale="1.0"
+        android:toYScale="0.8"
         android:pivotX="50%"
         android:pivotY="50%"
         android:duration="100"
-        android:repeatCount="1"
         android:repeatMode="reverse"
-        />
+        android:repeatCount="1" />
 <!-- extend size 1.0 to 1.2 in X and Y
 pivot 50% = play animation at center
 duration 100 millisec = play 0.1sec

@@ -9,7 +9,7 @@
     <!--    padding = gap from boarder     -->
 
     <TextView
-        android:id="@+id/toolbarTitle"
+        android:id="@+id/headTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -18,41 +18,41 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/subTitle"
+        android:id="@+id/welcomeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbarTitle"
+        android:layout_below="@id/headTitle"
         android:layout_marginTop="8dp"
         android:text="@string/welcome_user"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <!-- Image from src -->
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imageOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/subTitle"
+        android:layout_below="@+id/welcomeTitle"
         android:layout_marginTop="32dp"
         android:src="@drawable/ic_menu_1"
         android:contentDescription="@string/desc1"/>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@+id/imageOne"
         android:layout_marginTop="16dp"
         android:src="@drawable/ic_menu_2"
         android:contentDescription="@string/desc2"/>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imageView2"
+        android:layout_below="@+id/imageTwo"
         android:layout_marginTop="16dp"
         android:src="@drawable/ic_menu_3"
         android:contentDescription="@string/desc3"/>

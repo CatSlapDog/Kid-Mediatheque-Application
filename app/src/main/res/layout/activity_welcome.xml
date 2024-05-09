@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="51dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/prompt_bold"
+        android:text="Kid Mediatheuqe"
+        android:textColor="@color/main_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAppName"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/prompt_regular"
+        android:text="Learn vocabulary and listen to the pronunciation of English letters. Colorful characters and fun activities to capture the attention of
+children and makes learning fun"
+        android:paddingStart="42px"
+        android:paddingEnd="40px"/>
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/main_color"
+        android:fontFamily="@font/prompt_bold"
+        android:text="Let's Go!" />
+
+</RelativeLayout>

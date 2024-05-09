@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/bg_content">
+
+    <ImageView
+        android:id="@+id/characterImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_alphabet_a" />
+
+    <ImageView
+        android:id="@+id/animalImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/characterImage"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_animal_a" />
+
+    <TextView
+        android:id="@+id/animalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/animalImage"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/prompt_bold"
+        android:text="Alpaca"
+        android:textColor="#4BA9D0"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_nav_bar"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:id="@+id/backText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableBottom="@drawable/ic_left"
+            android:layout_gravity="center"
+            android:textAppearance="?attr/textAppearanceButton"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/homeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableBottom="@drawable/ic_home_menu"
+            android:layout_gravity="center"
+            android:text="Home"
+            android:textAppearance="?attr/textAppearanceButton"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/nextText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableBottom="@drawable/ic_right"
+            android:layout_gravity="center"
+            android:textAppearance="?attr/textAppearanceButton"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Kid Mediatheuqe</string>
+    <string name="welcome_user">Hello %1$s</string> <!--must use number for not throw UnknownFormatConversionException so it be %1$s-->
+    <string name="desc1">ABC</string>
+    <string name="desc2">place</string>
+    <string name="desc3">town</string>
+    <string name="translation_a">Alpaca</string>
+    <string name="translation_b">Bear</string>
+    <string name="translation_c">Cat</string>
+    <string name="translation_d">Dolphin</string>
+    <string name="translation_e">Elephant</string>
+    <string name="translation_f">Frog</string>
+    <string name="translation_g">Giraff</string>
+    <string name="translation_h">Hedgehog</string>
+    <string name="translation_i">Iguana</string>
+    <string name="translation_j">Jaguar</string>
+    <string name="translation_k">Kangaroo</string>
+    <string name="translation_l">Lion</string>
+    <string name="translation_m">Monkey</string>
+    <string name="translation_n">Narwhal</string>
+    <string name="translation_o">Owl</string>
+    <string name="translation_p">Panda</string>
+    <string name="translation_q">Quail</string>
+    <string name="translation_r">Rhino</string>
+    <string name="translation_s">Swan</string>
+    <string name="translation_t">Turkey</string>
+    <string name="translation_u">Urial</string>
+    <string name="translation_v">Viper</string>
+    <string name="translation_w">Woodpecker</string>
+    <string name="translation_x">Xerus</string>
+    <string name="translation_y">Yak</string>
+    <string name="translation_z">Zebra</string>
 </resources>
