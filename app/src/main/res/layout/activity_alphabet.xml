@@ -31,7 +31,8 @@
         android:layout_marginTop="6dp"
         android:fontFamily="@font/prompt_bold"
         android:text="Alpaca"
-        android:textColor="#4BA9D0"
+        android:textColor="@color/orange_700"
+        android:background="@color/pastel"
         android:textSize="30sp"/>
 
     <LinearLayout
